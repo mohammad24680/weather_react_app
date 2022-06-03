@@ -1,0 +1,204 @@
+/* width */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.37);
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: #da0037;
+}
+
+body {
+  direction: ltr;
+  font-size: 100%;
+  font-family: "Allura", cursive;
+  font-family: "Righteous", cursive;
+  overflow-x: hidden;
+  color: white;
+}
+
+p {
+  font-family: "Righteous", cursive;
+  font-size: 1.5vw;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+[class*="wrapper-"],
+[class*="col-"] {
+  float: left;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.App::before {
+  content: "";
+  position: absolute;
+  background-image: url(/images/background/60-604584_auroral-forest.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+::placeholder {
+  color: white;
+  padding-left: 0.2vw;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vw;
+    flex-wrap: wrap;
+    width: 16.2vw;
+    input {
+      padding: 0.7vw 2.5vw;
+      border-radius: 3vw;
+      background: rgba(135, 135, 135, 0.2);
+      text-align: center;
+      color: white;
+      border: 1px solid rgba(135, 135, 135, 0.8);
+    }
+    button {
+      background: rgba(135, 135, 135, 0.2);
+      color: white;
+      border-radius: 3vw;
+      padding: 0.5vw 1.5vw;
+      border: 1px solid rgba(135, 135, 135, 0.8);
+      cursor: pointer;
+      margin-top: 1vw;
+    }
+  }
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Top {
+  margin-top: 4vw;
+  text-align: center;
+  padding: 0 1vw;
+}
+.Location {
+  p {
+    font-size: 2.5vw;
+  }
+}
+.temp {
+  margin: 2vw 0vw 0vw 0vw;
+  h1 {
+    font-size: 9vw;
+    position: relative;
+    sup {
+      position: absolute;
+      font-size: 3vw;
+      padding-left: 0.5vw;
+    }
+  }
+}
+.img {
+  img {
+    width: 10vw;
+  }
+}
+.description {
+  p {
+    font-size: 2vw;
+  }
+}
+.temp_max {
+  position: absolute;
+  top: 14vw;
+  display: flex;
+  right: 27.5vw;
+}
+.temp_min {
+  position: absolute;
+  top: 21.5vw;
+  display: flex;
+  right: 27.5vw;
+}
+.temp_max,
+.temp_min {
+  p:nth-of-type(1) {
+    padding-right: 2vw;
+  }
+}
+.Bottom {
+  display: flex;
+  margin-top: 6vw;
+  width: 66vw;
+  height: 8vw;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: rgb(135 135 135 / 20%);
+  border-radius: 2vw;
+  div {
+    p:nth-of-type(1) {
+      padding-bottom: 0.7vw;
+    }
+  }
+}
