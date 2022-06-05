@@ -1,47 +1,55 @@
 @media screen and (min-width: 320px) {
+  .App {
+    overflow: hidden;
+  }
   .search {
     form {
-      margin-top: 13.5vw;
-      width: 68.5vw;
+      margin-top: 35px;
+      width: 180px;
       input {
-        padding: 3.5vw 8.5vw;
-        border-radius: 6vw;
+        padding: 8px 15px;
+        border-radius: 90px;
       }
       button {
-        border-radius: 6vw;
-        padding: 2vw 7.5vw;
-        margin-top: 6vw;
+        border-radius: 90px;
+        padding: 5px 20px;
+        margin-top: 25px;
       }
     }
   }
+  .Container {
+    height: 80vh;
+  }
   .Top {
-    margin-top: 14vw;
-    padding: 0 1vw;
+    height: 72%;
+    margin-top: 30px;
+    padding: 0 15px;
   }
   .Location {
     p {
-      font-size: 10.5vw;
+      font-size: 30px;
     }
   }
   .temp {
-    margin: 11vw 0vw 0vw 0vw;
+    margin: 40px 0vw 0vw 0vw;
     h1 {
-      font-size: 30vw;
+      font-size: 100px;
       sup {
-        font-size: 11vw;
-        padding-left: 2.5vw;
+        font-size: 37px;
+        padding-left: 2%;
       }
     }
   }
   .img {
-    margin-top: 0vw;
+    margin-top: 5px;
     img {
-      width: 40vw;
+      width: 120px;
     }
   }
   .description {
+    margin-top: 15px;
     p {
-      font-size: 7vw;
+      font-size: 20px;
     }
   }
   .temp_max,
@@ -49,17 +57,20 @@
     display: none;
   }
   .Bottom {
-    margin-top: 13vw;
-    width: 95vw;
-    height: 21vw;
-    border-radius: 8vw;
+    margin-top: 5px;
+    width: 93%;
+    height: 68px;
+    border-radius: 90px;
     div {
       p:nth-of-type(1) {
-        padding-bottom: 2.7vw;
+        padding-bottom: 15px;
       }
     }
   }
   p {
-    font-size: 4vw;
+    font-size: 12px;
+  }
+  .wind_pressure {
+    display: none;
   }
 }

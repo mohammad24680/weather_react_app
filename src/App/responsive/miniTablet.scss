@@ -1,0 +1,33 @@
+@media screen and (min-width: 576px) {
+  .search {
+    form {
+      margin-top: 20px;
+      width: 195px;
+    }
+  }
+  .Top {
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    padding: 0 15px;
+  }
+  .temp {
+    margin: 50px 0vw 0vw 0vw;
+  }
+  .img {
+    img {
+      width: 130px;
+    }
+  }
+  .Bottom {
+    margin-top: 40px;
+    width: 93%;
+    height: 100px;
+    border-radius: 90px;
+  }
+  p {
+    font-size: 16px;
+  }
+}

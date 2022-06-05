@@ -114,7 +114,7 @@ function App() {
               {data.wind ? <p>{data.wind.speed} m/s</p> : null}
               <p>Wind Speed</p>
             </div>
-            <div className={Style.wind}>
+            <div className={Style.wind_pressure}>
               {data.main ? <p>{data.main.pressure} hPa</p> : null}
               <p>Pressure</p>
             </div>
