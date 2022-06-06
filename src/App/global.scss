@@ -186,6 +186,11 @@ a:visited {
     padding-right: 2vw;
   }
 }
+@media screen and (max-height: 700px) {
+  .Bottom {
+    display: none !important;
+  }
+}
 .Bottom {
   display: flex;
   margin-top: 6vw;

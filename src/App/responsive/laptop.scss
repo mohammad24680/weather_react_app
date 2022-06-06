@@ -2,47 +2,49 @@
   .search {
     form {
       margin-top: 20px;
-      width: 195px;
+      width: 255px;
       input {
         padding: 9px 17px;
       }
       button {
-        padding: 6px 25px;
+        padding: 8px 30px;
       }
     }
+  }
+  .Top {
+    height: 74%;
+    margin-top: 25px;
   }
   .Location {
     p {
-      font-size: 25px;
+      font-size: 31px;
     }
   }
   .temp {
-    margin: 45px 0vw 0vw 0vw;
+    margin: 30px 0vw 0vw 0vw;
     h1 {
-      font-size: 115px;
-      sup {
-        font-size: 40px;
-        padding-left: 3%;
-        letter-spacing: 3px;
-      }
+      font-size: 135px;
     }
   }
   .img {
     margin-top: 5px;
     img {
-      width: 120px;
+      width: 130px;
     }
   }
   .description {
-    margin-top: 10px;
+    margin-top: 0px;
+    p {
+      font-size: 29px;
+    }
   }
   .Bottom {
-    margin-top: 33px;
-    width: 715px;
+    margin-top: 50px;
+    width: 930px;
     height: 105px;
   }
   p {
-    font-size: 18px;
+    font-size: 21px;
   }
   .wind_pressure {
     display: block;

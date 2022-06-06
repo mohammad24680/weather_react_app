@@ -1,0 +1,52 @@
+@media screen and (min-width: 1201px) {
+  .search {
+    form {
+      margin-top: 20px;
+      width: 255px;
+      input {
+        padding: 9px 17px;
+      }
+      button {
+        padding: 8px 30px;
+      }
+    }
+  }
+  .Top {
+    height: 74%;
+    margin-top: 25px;
+  }
+  .Location {
+    p {
+      font-size: 31px;
+    }
+  }
+  .temp {
+    margin: 30px 0vw 0vw 0vw;
+    h1 {
+      font-size: 135px;
+    }
+  }
+  .img {
+    margin-top: 5px;
+    img {
+      width: 130px;
+    }
+  }
+  .description {
+    margin-top: 0px;
+    p {
+      font-size: 29px;
+    }
+  }
+  .Bottom {
+    margin-top: 50px;
+    width: 930px;
+    height: 105px;
+  }
+  p {
+    font-size: 21px;
+  }
+  .wind_pressure {
+    display: block;
+  }
+}
