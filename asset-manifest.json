@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.dba09908.css",
+    "main.js": "/my-app/static/js/main.4127b172.js",
+    "static/media/60-604584_auroral-forest.jpg": "/my-app/static/media/60-604584_auroral-forest.3cd9581a85050eb20fb9.jpg",
+    "index.html": "/my-app/index.html",
+    "main.dba09908.css.map": "/my-app/static/css/main.dba09908.css.map",
+    "main.4127b172.js.map": "/my-app/static/js/main.4127b172.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dba09908.css",
+    "static/js/main.4127b172.js"
+  ]
+}
