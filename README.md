@@ -1,3 +1,15 @@
+# personal-website
+
+![Website](https://github.com/mohammad24680/weather_react_app/assets/71064028/46428416-c075-428b-82f3-c033c9cc38b8)
+
+- Developed by mohammad bagheri
+
+- Technologies Used - Html , css , js , reactjs
+
+- Role - Frontend
+
+- How to reach me : with my [linkedin](https://www.linkedin.com/in/mohammad-bagheri-developer/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
