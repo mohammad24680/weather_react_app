@@ -15,12 +15,9 @@ function App() {
     const searchLocation = (event) => {
       if (componentMounted) {
         axios.get(url).then((response) => {
-          setData(response.data);
-          console.log(response.data);
+          setData(response?.data);
         });
-        setLocation("");
       }
-      if (!location || location === "") return;
       return () => {
         componentMounted = false;
       };
